@@ -1,0 +1,12 @@
+{
+  "resources/js/site.js": {
+    "file": "assets/site.5f3ad8a7.js",
+    "src": "resources/js/site.js",
+    "isEntry": true
+  },
+  "resources/css/tailwind.css": {
+    "file": "assets/tailwind.6a81953a.css",
+    "src": "resources/css/tailwind.css",
+    "isEntry": true
+  }
+}
