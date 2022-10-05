@@ -1,4 +1,5 @@
 {
+    "name": "kinsta-statamic",
     "private": true,
     "scripts": {
         "dev": "vite",
