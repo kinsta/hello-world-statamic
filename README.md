@@ -20,10 +20,7 @@ Note that **Statamic** requires few environment variables to be set:
 - `ASSET_URL` - just copy and paste your Kinsta domain here with a proper protocol
 
 ## Web Server Setup
-After the initial deployment go to **Processes** tab and edit the Web to:
-```
-vendor/bin/heroku-php-apache2 public/
-```
+When deploying an application Kinsta will automatically create a web process with `heroku-php-apache2 public/`. It can be latered altered in the `Processes` tab in the UI.
 
 ## What is Statamic?
 Statamic is a powerful, flat-file CMS built on Laravel.
