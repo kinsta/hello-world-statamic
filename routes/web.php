@@ -12,7 +12,11 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+if( env('APP_KINSTA') ) {
+    URL::forceScheme('https');
+}
 
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
+
