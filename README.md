@@ -16,8 +16,7 @@ Because in most cases we want our application to also build our CSS/JS files we 
 ## Environment Variables
 Note that **Statamic** requires few environment variables to be set:
 - `APP_KEY`
-- `APP_URL` - just copy and paste your Kinsta domain here with a proper protocol
-- `ASSET_URL` - just copy and paste your Kinsta domain here with a proper protocol
+- `APP_KINSTA` - set it `true`.
 
 ## Web Server Setup
 When deploying an application Kinsta will automatically create a web process with `heroku-php-apache2 public/`. It can be latered altered in the `Processes` tab in the UI.
@@ -34,4 +33,4 @@ Statamic is a powerful, flat-file CMS built on Laravel.
 - Use the control panel unless you don’t feel like it. Code editors are great too.
 - You can version control everything unless you don’t want to.
 
-More info on the [statamic.com](https://statamic.com/) website.
+More info on the [Statamic](https://statamic.com/) website.
