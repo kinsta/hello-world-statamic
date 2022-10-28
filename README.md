@@ -9,7 +9,7 @@ An example of how to set **Statamic** up to enable deployment on Kinsta App Host
 **Statamic** is based on Laravel. This means that it's a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
 
 ## Required buildpacks
-Because in most cases we want our application to also build our CSS/JS files we need to add two Biuldpacks:
+Because in most cases we want our application to also build our CSS/JS files we need to add two Buildpacks:
 - Node JS
 - PHP
 
@@ -19,7 +19,7 @@ Note that **Statamic** requires few environment variables to be set:
 - `APP_KINSTA` - set it `true`.
 
 ## Web Server Setup
-When deploying an application Kinsta will automatically create a web process with `heroku-php-apache2 public/`. It can be latered altered in the `Processes` tab in the UI.
+When deploying an application Kinsta will automatically create a web process with `heroku-php-apache2 public/`. It can be later altered in the `Processes` tab in the UI.
 
 ## What is Statamic?
 Statamic is a powerful, flat-file CMS built on Laravel.
