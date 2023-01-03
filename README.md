@@ -3,7 +3,19 @@
 
 An example of how to set **Statamic** up to enable deployment on Kinsta App Hosting services.
 
-> Kinsta’s Application Hosting is a service to run your web apps and any databases side by side in a hassle-free environment, tailored for developer needs and ease of use. App Hosting is currently in an invite-only beta phase, sign up for a test account at [kinsta.com/application-hosting](https://kinsta.com/application-hosting/).
+---
+Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
+
+Get started for free, the first $20 is on us!
+
+[Application Hosting](https://kinsta.com/application-hosting)
+
+[Database Hosting](https://kinsta.com/database-hosting)
+
+## Installation
+**Statamic** is a flat-file CMS, which means all the data is stored in the git repository. Before pushing the code to **Kinsta Application Hosting**, you have to [install it locally](https://statamic.dev/installing) and create a super user account. After doing this, commit and push all the changes to the repository.
+
+Remember that **Kinsta Application Hosting** works best for stateless applications, which means that it will be best to work on your content locally and use **Kinsta** just to serve the website to users.
 
 ## Dependency Management
 **Statamic** is based on Laravel. This means that it's a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
