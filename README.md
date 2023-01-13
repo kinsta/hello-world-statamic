@@ -20,15 +20,18 @@ Remember that **Kinsta Application Hosting** works best for stateless applicatio
 ## Dependency Management
 **Statamic** is based on Laravel. This means that it's a regular PHP-based application, so during the deployment process Kinsta will automatically install dependencies defined in your `composer.json` file.
 
-## Required buildpacks
-Because in most cases we want our application to also build our CSS/JS files we need to add two Buildpacks:
-- Node JS
-- PHP
-
 ## Environment Variables
 Note that **Statamic** requires few environment variables to be set:
-- `APP_KEY`
+- `APP_KEY` - you can get the `APP_KEY` either by running `php artisan key:generate` locally or use [this generator](https://generate-random.org/laravel-key-generator)
 - `APP_KINSTA` - set it `true`.
+
+## Required buildpacks
+> **Warning**
+> Your first deploy will fail in most cases because it won't have all the required **Buildbacks**. Remember to set them up after the first deployment.
+
+In most cases we want our application to also build our CSS/JS files we need to add two Buildpacks:
+- Node JS
+- PHP
 
 ## Web Server Setup
 When deploying an application Kinsta will automatically create a web process with `heroku-php-apache2 public/`. It can be later altered in the `Processes` tab in the UI.
