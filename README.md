@@ -6,11 +6,9 @@ An example of how to set **Statamic** up to enable deployment on Kinsta App Host
 ---
 Kinsta is a developer-centric cloud host / PaaS. We’re striving to make it easier for you to share your web projects with your users. Focus on coding and building, and we’ll take care of deployment and provide fast, scalable hosting. + 24/7 expert-only support.
 
-Get started for free, the first $20 is on us!
-
-[Application Hosting](https://kinsta.com/application-hosting)
-
-[Database Hosting](https://kinsta.com/database-hosting)
+- [Start your free trial](https://kinsta.com/signup/?product_type=app-db)
+- [Application Hosting](https://kinsta.com/application-hosting)
+- [Database Hosting](https://kinsta.com/database-hosting)
 
 ## Installation
 **Statamic** is a flat-file CMS, which means all the data is stored in the git repository. Before pushing the code to **Kinsta Application Hosting**, you have to [install it locally](https://statamic.dev/installing) and create a super user account. After doing this, commit and push all the changes to the repository.
