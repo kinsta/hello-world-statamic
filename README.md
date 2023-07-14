@@ -47,3 +47,6 @@ Statamic is a powerful, flat-file CMS built on Laravel.
 - You can version control everything unless you don’t want to.
 
 More info on the [Statamic](https://statamic.com/) website.
+
+## Watch How to Set Up a Statamic Application on Kinsta
+[![Watch the video](https://img.youtube.com/vi/JAA95gNt8kk/maxresdefault.jpg)](https://www.youtube.com/watch?v=JAA95gNt8kk)
