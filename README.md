@@ -28,7 +28,7 @@ Note that **Statamic** requires few environment variables to be set:
 > Your first deploy will fail in most cases because it won't have all the required **Buildbacks**. Remember to set them up after the first deployment.
 
 In most cases we want our application to also build our CSS/JS files we need to add two Buildpacks:
-- Node JS
+- Node.js
 - PHP
 
 ## Web Server Setup
